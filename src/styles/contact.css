@@ -1,9 +1,10 @@
 .contactContainer {
   align-items: center;
+  background-color: #d4bbe4;
   display: flex;
   height: 100vh;
   justify-content: center;
-  width: 100%;
+  width: 80%;
 }
 
 .body {
@@ -42,4 +43,8 @@
 .contactContainer a:hover {
   background-color: #fcfc79;
   box-shadow: 0 6px 0 0 #fafa46;
+}
+
+.contacts {
+  display: flex;
 }
