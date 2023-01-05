@@ -1,0 +1,80 @@
+.header {
+  display: inline-flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+ 
+.menuButton {
+  background-color: #CBE7F6;
+  border: none;
+  border-bottom-left-radius: 15px;
+  box-shadow: 0 5px 0 0 #8dcaeb ;
+  cursor: pointer;
+  height: 66px;
+  padding: 0;
+  width: 64px;
+}
+  
+.menuButton img {
+  height: 56px;
+  width: 56px;
+}
+  
+.menu {
+  display: none;
+  margin-left: 10px;
+  margin-top: -1px;
+  position: absolute;
+  width: 25%;
+  z-index: 1;
+}
+  
+.dropdown:hover .menu {
+  display: block;
+}
+  
+.menu nav {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+  
+.menu a {
+  background-color: #e5e9c8;
+  color: black;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  padding: 8px 0;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+  
+.menu a:last-child {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0 3px 0 0 rgb(187, 236, 131) ;
+}
+  
+.menu a:hover {
+  background-color: rgb(225, 233, 166);
+}
+  
+.title {
+  background-color: #CBE7F6;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0 5px 0 0#8dcaeb;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}  
+
+h1 {
+  font-family: 'Satisfy', cursiva;
+  font-size: 38px;
+  font-weight: 300;
+  margin: 10px 0;
+}
+

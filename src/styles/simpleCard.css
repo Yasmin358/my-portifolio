@@ -1,0 +1,149 @@
+.card {
+  align-items: center;
+  background-color:rgb(255, 255, 224);
+  border-radius: 15px;
+  box-shadow: 0 6px 0 0 #ffff85;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px 10px;
+  overflow: hidden;
+  transition-property: color;
+  transition-delay: 0.15s;
+  width: 300px;
+}
+  
+.card * {
+  transition: 0.3s ease all;
+}
+  
+.card button {
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 5px;
+}
+  
+.resumeContainer {
+  height: 92px;
+  margin: 0 0 20px;
+}
+  
+.resume {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  text-align: left;
+}
+  
+.card h3 {
+  display: flex;
+  font-family: 'Satisfy', cursiva;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 55px;
+  margin:0;
+  top: 0; 
+}
+  
+.containerBody {
+  align-items: flex-start;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 250px;
+  padding: 15px;
+  padding-bottom: 0px;
+}
+  
+.containerBody span {
+  font-family: Courier Prime, monospace;
+  font-weight: 600;
+}
+  
+.technologies {
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 50px;
+  justify-content: flex-start;
+  padding: 2px;
+  width: 100%;
+}
+
+.icon-CSS, .icon-HTML {
+  width: 46px;
+}
+  
+.icon-JavaScript {
+  margin-right: 5px;
+  width: 38px;
+}
+  
+.icon-React {
+  width: 40px;
+}
+   
+.imageProject {
+  margin-bottom: 10px;
+  object-fit: cover;
+  width: 100%;
+}
+  
+.course {
+  background-color: #5fd149;
+  border-radius: 50px;
+  box-shadow: 0 4px 0 0 #1db702;
+  font-family: Courier Prime, monospace;
+  font-size: 12px;
+  margin: 0;
+  padding: 4px 10px;
+  padding-bottom: 3px;
+  text-transform: uppercase;
+}
+  
+.detailsContainer, .favoriteContainer {
+  align-items: center;
+  border: none;
+  display: flex;
+  height: 45px;
+  justify-content: center;
+  width: 50%;
+}
+
+.detailsButton {
+  display: flex;
+  cursor: pointer;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+  
+.detailsButton img {
+  width: 40px;
+}
+
+.detailsButton:hover {
+  background-color: #fcfc79;
+}
+  
+.favorite {
+  text-decoration: none;
+  background-color:#ffffad;
+}
+  
+.favorite img{
+  width: 30px;
+  height: 30px;
+}
+  
+.bottonContainer {
+  align-items: center;
+  background-color:#ffffad;
+  display: flex;
+  height: 45px;
+  justify-content: space-around;
+  width: 100%;
+}
+  
+  

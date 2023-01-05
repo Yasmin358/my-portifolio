@@ -1,0 +1,87 @@
+.listContainer {
+  display: flex;
+  width: 90%;
+}
+
+.leftContainer, .rightContainer, .aboutMeContainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+.leftContainer {
+  align-items:  flex-start;
+  width: 25%;
+}
+
+.rightContainer {
+  align-items: flex-end;
+  width: 25%
+}
+
+.aboutMeContainer {
+  align-items: center;
+  background-color: #e2dae7;
+  height: 80%;
+  margin: 20px 10px !important;
+  padding: 0 !important;
+  width: 50%;
+}
+
+.rightContainer li , .leftContainer li, .aboutMeContainer {
+  box-shadow: 0 6px 7px 0 rgb(251 185 213 / 62%);
+  color: black;
+  display: block;
+  font-family: 'Reenie Beanie';
+  margin: 6px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.listContainer li {
+  background-color:rgb(255, 255, 224);
+  height: 185px;
+  width: 185px;
+}
+
+.rightContainer li:nth-child(1) {
+  transform:rotate(4deg);
+}
+
+.leftContainer li:nth-child(2) {
+  position:relative;
+  top: 15px;
+  transform:rotate(4deg);
+}
+
+.rightContainer li:nth-child(2) {
+  height: 300px;
+  position:relative;
+  top: 15px;
+  transform:rotate(-3deg);
+}
+
+.leftContainer li:nth-child(1) {
+  transform:rotate(-3deg);
+}
+
+.listContainer  h2, .listContainer h3 {
+  color: #ff0077;
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+}
+
+.listContainer ul p, .aboutMeContainer p {
+  font-size: 26px;
+  margin: 5px 0;
+}
+
+.aboutMeContainer p {
+  padding-left: 10px;
+}
+
+.aboutMeContainer h3 {
+  font-size: 26px;
+  margin: 10px 0;
+}
