@@ -15,6 +15,8 @@ function Contact() {
       <main className="main" style={{ backgroundImage: `url(${pattern})` }}>
         <Header title="Contato" />
         <div className="contactContainer">
+          <h3> Não seja um estranho! Conecte-se comigo: </h3>
+          <div className="contacts">
           <a href="https://www.linkedin.com/in/yasminamorins/">
             <img src={linkedin} alt="Logo-Linkedin" />
             Linkedin
@@ -39,6 +41,7 @@ function Contact() {
             <img src={Skoob} alt="Logo-Skoob" />
             Skoob
           </a>
+          </div>
         </div>
       </main>
     </section>
